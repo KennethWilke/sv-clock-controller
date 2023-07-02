@@ -1,0 +1,14 @@
+CAPI=2:
+name: kwilke:simple:sv-clock-controller:1.0.0
+description: A simple clock controller
+
+filesets:
+  rtl:
+    files:
+      - clock_controller.sv
+    file_type: systemVerilogSource
+
+targets:
+  default: &default
+    filesets:
+      - rtl
